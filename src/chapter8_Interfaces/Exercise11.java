@@ -17,7 +17,7 @@ class Producer {
 				tk[i+1] = take.charAt(i);
 			}
 		else 
-			for (int i=0; i<(take.length()-1); i=i+2){
+			for (int i=0; i<(take.length()-1); i=i+2){  // 
 				tk[i] = take.charAt(i+1);
 				tk[i+1] = take.charAt(i);
 			}
